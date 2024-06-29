@@ -1863,10 +1863,18 @@ body {
     }
 
     .selectClass {
-        width: 300px;
+        width: 290px;
         height: 40px;
         padding: 0 10px 0 10px;
         order: 2;
+    }
+
+    .searchBar {
+        width: 290px;
+        height: 40px;
+        padding: 0 15px;
+        border-radius: 20px;
+        border: 1px solid #545D63;
     }
 
     .productsCardContainer {
@@ -1884,7 +1892,7 @@ body {
 
     .productCards {
         width: 100%;
-        max-width: 300px;
+        max-width: 290px;
         margin-bottom: 1rem;
         margin-top: 3rem;
         background-color: white;
