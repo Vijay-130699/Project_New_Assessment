@@ -1311,6 +1311,432 @@ body {
 }
 
 
+
+@media screen and (max-width:425px) {
+    .mensOuterWearContainer {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .menLabelContainer {
+        background-color: #1B252C;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 20%;
+        position: absolute;
+        top: 190px;
+        left: 15%;
+        z-index: 99;
+    }
+
+    .menLabel {
+        font-size: 35px;
+        font-family: "Poppins", sans-serif;
+        letter-spacing: 3px;
+        font-weight: 500;
+        text-align: center;
+        color: #fff;
+    }
+
+    .backgroundImageContainer {
+        position: relative;
+
+    }
+
+    .backgroundImage {
+        width: 100%;
+
+    }
+
+    .productsSection {
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+    }
+
+
+    .filterSection {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .clothingLabel {
+        text-align: start;
+        font-size: 18px;
+        color: #172026;
+        margin-top: 20px;
+    }
+
+    .filterLabel {
+        text-align: start;
+        font-size: 18px;
+        color: #172026;
+        margin-top: 20px;
+    }
+
+    .underLine {
+        border-bottom: 2px solid #D1D3D6;
+    }
+
+    .filterOptionsContainer {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .catergoryLabel {
+        width: 100%;
+        color: #181C24;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .checkBoxLabelContainer {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .checkboxLabel {
+        width: 100%;
+        margin-left: 10px;
+        color: #28292c;
+        font-size: 16px;
+    }
+
+
+    .productsSectionContainer {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .productsHeader {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .resultsLabel {
+        text-align: center;
+        font-size: 18px;
+        color: #172026;
+        order: 3;
+        width: 100%;
+    }
+
+    .selectClass {
+        width: 400px;
+        height: 40px;
+        padding: 0 10px 0 10px;
+        order: 2;
+    }
+
+    .searchBar {
+        width: 400px;
+        height: 40px;
+        padding: 0 15px;
+        border-radius: 20px;
+        border: 1px solid #545D63;
+    }
+
+
+    .productsCardContainer {
+        width: 100%;
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+        animation: fadeIn 0.25s ease-in-out;
+        row-gap: 2rem;
+        column-gap: 1.33%;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .productCards {
+        width: 100%;
+        max-width: 395px;
+        margin-bottom: 1rem;
+        margin-top: 3rem;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 0.5rem;
+        aspect-ratio: 4/5.2;
+        height: 100%;
+        min-height: auto;
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .productImageContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 0.25rem;
+        aspect-ratio: 1;
+    }
+
+    .productImage {
+        width: 400px;
+        height: 300px;
+        border: 1px solid #D1D3D6;
+        padding: 20px;
+    }
+
+    .productTitle {
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        margin-top: 0px;
+        height: 13%;
+    }
+
+    .priceValue {
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .description {
+        margin-top: 10px;
+        text-align: start;
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        word-wrap: break-word;
+    }
+}
+
+
+@media screen and (max-width:375px) {
+    .mensOuterWearContainer {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .menLabelContainer {
+        background-color: #1B252C;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 20%;
+        position: absolute;
+        top: 165px;
+        left: 10%;
+        z-index: 99;
+    }
+
+    .menLabel {
+        font-size: 35px;
+        font-family: "Poppins", sans-serif;
+        letter-spacing: 3px;
+        font-weight: 500;
+        text-align: center;
+        color: #fff;
+    }
+
+    .backgroundImageContainer {
+        position: relative;
+
+    }
+
+    .backgroundImage {
+        width: 100%;
+
+    }
+
+    .productsSection {
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+    }
+
+
+    .filterSection {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .clothingLabel {
+        text-align: start;
+        font-size: 18px;
+        color: #172026;
+        margin-top: 20px;
+    }
+
+    .filterLabel {
+        text-align: start;
+        font-size: 18px;
+        color: #172026;
+        margin-top: 20px;
+    }
+
+    .underLine {
+        border-bottom: 2px solid #D1D3D6;
+    }
+
+    .filterOptionsContainer {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .catergoryLabel {
+        width: 100%;
+        color: #181C24;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .checkBoxLabelContainer {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .checkboxLabel {
+        width: 100%;
+        margin-left: 10px;
+        color: #28292c;
+        font-size: 16px;
+    }
+
+
+    .productsSectionContainer {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .productsHeader {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .resultsLabel {
+        text-align: center;
+        font-size: 18px;
+        color: #172026;
+        order: 3;
+        width: 100%;
+    }
+
+    .selectClass {
+        width: 350px;
+        height: 40px;
+        padding: 0 10px 0 10px;
+        order: 2;
+    }
+
+    .searchBar {
+        width: 350px;
+        height: 40px;
+        padding: 0 15px;
+        border-radius: 20px;
+        border: 1px solid #545D63;
+    }
+
+
+    .productsCardContainer {
+        width: 100%;
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+        animation: fadeIn 0.25s ease-in-out;
+        row-gap: 2rem;
+        column-gap: 1.33%;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .productCards {
+        width: 100%;
+        max-width: 345px;
+        margin-bottom: 1rem;
+        margin-top: 3rem;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 0.5rem;
+        aspect-ratio: 4/5.2;
+        height: 100%;
+        min-height: auto;
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .productImageContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 0.25rem;
+        aspect-ratio: 1;
+    }
+
+    .productImage {
+        width: 350px;
+        height: 300px;
+        border: 1px solid #D1D3D6;
+        padding: 20px;
+    }
+
+    .productTitle {
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        margin-top: 0px;
+        height: 13%;
+    }
+
+    .priceValue {
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .description {
+        margin-top: 10px;
+        text-align: start;
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        word-wrap: break-word;
+    }
+}
+
 @media screen and (max-width:320px) {
     .mensOuterWearContainer {
         display: flex;
