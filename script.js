@@ -138,7 +138,7 @@ const loadMoreData = () => {
     } else {
         currentLength = responseData.length;
     }
-    filterAndSortData();
+    filterAndSortData('loadMore');
 };
 
 // Load Less Data
@@ -148,7 +148,7 @@ const loadLessData = () => {
     } else {
         currentLength = 10;
     }
-    filterAndSortData();
+    filterAndSortData('loadLess');
 };
 
 // Update the visibility of Load More and Load Less buttons
@@ -199,7 +199,8 @@ const filterAndSortData = (sortValue = '') => {
     }
     hideSkeletonLoader() // Hide skeleton loader
     showProductsCard(filteredData, currentLength);
-    getResults(filteredData?.length - currentLength);
+    console.log(filteredData?.length, "filteredData?.length")
+    getResults(sortValue === 'loadMore' ? 20 : sortValue === 'loadLess' ? 10 : selectedCategories.length ? filteredData?.length : filteredData?.slice(0, currentLength)?.length);
     updateButtonVisibility(filteredData)
 };
 
