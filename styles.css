@@ -1752,16 +1752,16 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 300px;
-        height: 20%;
+        width: 230px;
+        height: 15%;
         position: absolute;
-        top: 150px;
-        left: 4%;
+        top: 160px;
+        left: 15%;
         z-index: 99;
     }
 
     .menLabel {
-        font-size: 35px;
+        font-size: 25px;
         font-family: "Poppins", sans-serif;
         letter-spacing: 3px;
         font-weight: 500;
@@ -1780,7 +1780,7 @@ body {
     }
 
     .productsSection {
-        margin-top: 5rem;
+        margin-top: 40px;
         display: flex;
         flex-direction: column;
         row-gap: 20px;
@@ -1800,7 +1800,6 @@ body {
         text-align: start;
         font-size: 18px;
         color: #172026;
-        margin-top: 20px;
     }
 
     .filterLabel {
