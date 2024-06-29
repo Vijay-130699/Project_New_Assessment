@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VENIA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+    <!-- Body Header-->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="menu-icon" id="menu-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+            <a href="#" class="brand">VENIA</a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Smart Gear</a></li>
+                <li><a href="#">Accessories</a></li>
+            </ul>
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+    </nav>
+    <!-- Body-->
+    <section class="mensOuterWearContainer">
+        <div class="menLabelContainer">
+            <label class="menLabel">Men's Outerwear</label>
+        </div>
+        <div class="backgroundImageContainer">
+            <img src="img/landscape-1465315975-tinie-tempah.jpg" alt="men" loading="lazy" class="backgroundImage" />
+        </div>
+    </section>
+
+
+
+    <section class="productsSection">
+        <div class="filterSection">
+            <label class="clothingLabel">Clothing / Women's / Outerwear</label>
+            <div class="filterLabel">Filters</div>
+            <div class="underLine"></div>
+
+            <div class="filterOptionsContainer">
+                <label class="catergoryLabel">Categories</label>
+                <!--Checkbox code will be in script-->
+            </div>
+        </div>
+        <div class="productsSectionContainer">
+            <div class="productsHeader">
+                <label class="resultsLabel"></label>
+
+                <input name="search" id="searchInput" class="searchBar" placeholder="Search By Product" />
+
+                <select class="selectClass" id="selectValue" onchange="sortProductsData()">
+                    <option selected value="default">Select Sort</option>
+                    <option value="price">Sort By Product Price</option>
+                    <option value="title">Sort By Product Name</option>
+                </select>
+            </div>
+
+            <div class="productsCardContainer">
+                <div class='productCards skeleton'>
+                    <div class='productImageContainer skeleton'></div>
+                    <div class='productTitle skeleton'></div>
+                    <div class='priceValue skeleton'></div>
+                    <div class='description skeleton'></div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="loadMoreButtonContainer">
+        <button class="loadMoreButton">Load More</button>
+        <button class="loadLessButton">Load Less</button>
+    </div>
+
+    <!-- Body Footer-->
+    <section class="footerSection">
+        <div class="underLine"></div>
+        <section class="footerFirstSection">
+            <label class="footerLabel">
+                Account
+                <div class="SubLabelContainer">
+                    <label>Sign In</label>
+                    <label>Register</label>
+                    <label>Order Status</label>
+                </div>
+            </label>
+
+            <label class="footerLabel">About Us
+                <div class="SubLabelContainer">
+                    <label>Our Story</label>
+                    <label>Careers</label>
+                </div>
+            </label>
+
+
+            <label class="footerLabel">Help
+                <div class="SubLabelContainer">
+                    <label>Contact Us</label>
+                    <label>Order Status</label>
+                    <label>Returns</label>
+                </div>
+            </label>
+
+            <label class="footerLabel">Follow Us
+                <p class="followUsSubContainer">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nihil eaque reprehenderit delectus quia
+                    numquam, et facere error explicabo consequuntur illo qui dolorum laboriosam ullam fuga aperiam ab
+                    sint neque.
+                </p>
+            </label>
+        </section>
+        <hr />
+        <section class="footerSecondSection">
+            <label class="footerVenia">VENIA</label>
+            <label class="footerVeniaCompany">© Company Name Address Ave, City Name, State ZIP</label>
+            <div class="urlContainer">
+                <a class="urlLabels" href="#">Terms of Use</a>
+                <a class="urlLabels" href="#">Privacy Policy</a>
+            </div>
+        </section>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
